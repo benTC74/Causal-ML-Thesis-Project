@@ -10,7 +10,8 @@ Data Sources: Data is collected from many different sources ranging from public 
 Data Preprocessing: Due to all the different formats, data granuarity, data types, missing values, etc., data preprocessing is immense and of great importance. Specifically, they include the followings.
 - Time series projection of the most recent data employing SARIMA
 - Missing value interpolation using cubic spline
-- Aggregating daily data and disaggregating quarterly and yearly data to monthly data using cubic spline
+- Aggregating daily data to monthly data using SQL in SQL server
+- Disaggregating quarterly and yearly data to monthly data using cubic spline
 - Aligning all data structures and combining them together
 - Categorizing data
 - Engineering new features

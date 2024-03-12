@@ -26,4 +26,6 @@ Implementation of Causal Machine Learning: In particular, the following two tech
 - Double Machine Learning (DML)
 - Causal Forest (CF) with Local Centering
 
-*Note: Please be noted that as it is private project within a company, datasets, especially the private ones, are not allowed to be published. Hence, only the python code is attached in this repository.
+Note: 
+**Please be noted that as it is a private project within a company, datasets, especially the private ones, are not allowed to be published. Hence, no dataset is attached in this repository.
+**Due to the sensitivity of the project, only partial code is attached in this repository.

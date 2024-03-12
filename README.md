@@ -1,15 +1,11 @@
 # Causal-ML-Thesis-Project
 This is a Master thesis project implemented for an international pharmaceutical wholesales company (in progress).
 
-
 Topic: “Cross-Country Analysis of Financial Performance Variation in an International Pharmaceutical Wholesales Company: A Causal Machine Learning Approach”
-
 
 Goal: It aims to utilize causal machine learning techniques, which combines the power of both statistical techniques and machine learning, to explore the reasons underlying the financial performances differences across countries of a company.
 
-
 Data Sources: Data is collected from many different sources ranging from public sources from OECD to private sources from the company's SQL server. 
-
 
 Data Preprocessing: Due to all the different formats, data granuarity, data types, missing values, etc., data preprocessing is immense and of great importance. Specifically, they include the followings.
 - Time series projection of the most recent data employing SARIMA

@@ -1,7 +1,7 @@
 # Causal-ML-Thesis-Project
 This is a Master thesis project implemented for an international pharmaceutical wholesales company (in progress).
 
-Topic: “Cross-Country Analysis of Financial Performance Variation in an International Pharmaceutical Wholesales Company: A Causal Machine Learning Approach”
+Topic: “Cross-Country Analysis of Financial Performance Variation in an International Pharmaceutical Wholesale Company: A Causal Machine Learning Approach”
 
 Goal: It aims to utilize causal machine learning techniques, which combines the power of both statistical techniques and machine learning, to explore the reasons underlying the financial performances differences across countries of a company.
 
@@ -17,16 +17,24 @@ Data Preprocessing: Due to all the different formats, data granuarity, data type
 - Engineering new features
 - Tranforming features utilizing one-hot encoding and standardization.
 
-Exploratory Data Analysis (EDA): The following techniques are utilized for understanding the data, and for detecting outliers and missing values.
+Exploratory Data Analysis (EDA): The following techniques are utilized for understanding the data, detecting outliers and missing values, constructing causal graph, and identifying confounders.
+- Correlation analysis
 - Univariate analysis
 - Bivariate analysis
 - PCA analysis
 - Feature importance in Random Forest
+- Directed acyclic graph (DAG) and backdoor path adjustment 
 
-Implementation of Causal Machine Learning: In particular, the following two techniques are utilized. Underlying machine learning techniques of the two techniques can be of any choice such as Random Forest, Lasso Regression and Neural Network.
+Implementation of Causal Machine Learning: In particular, the following two techniques are utilized. Underlying machine learning techniques of the two causal machine learning techniques are Random Forest and Lasso Regression.
 - Double Machine Learning (DML)
 - Causal Forest (CF) with Local Centering
 
+Various robustness checks are performed on the results to ensure their validity.
+- Random common cause
+- Placebo treatment
+- Data subset validation
+- Sensitivity analysis
+
 Note: <br />
 **Please be noted that as it is a private project within a company, datasets, especially the private ones, are not allowed to be published. Hence, no dataset is attached in this repository. <br />
-**Due to the sensitivity of the project, only the insensitive part of the code is attached in this repository.
+**Due to the sensitivity of the project, only the insensitive part of the code is attached in this repository and the results are not allowed to be published.

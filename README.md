@@ -1,5 +1,5 @@
 # Causal-ML-Thesis-Project
-This is a Master thesis project implemented for an international pharmaceutical wholesales company (in progress).
+This is a Master thesis project implemented for an international pharmaceutical wholesales company.
 
 Topic: “Cross-Country Analysis of Financial Performance Variation in an International Pharmaceutical Wholesale Company: A Causal Machine Learning Approach”
 
